@@ -1,0 +1,22 @@
+{
+    "name": "rueduphp/serviceprovider",
+    "description": "Octo Service Provider for Laravel",
+    "keywords": ["laravel", "octo"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gérald Plusquellec",
+            "email": "gplusquellec@rueduphp.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.0.* || 5.1.* || 5.2.* || 5.3.* || 5.4.*",
+        "rueduphp/octo": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Octo\\Laravel\\": "src/"
+        }
+    }
+}
