@@ -20,7 +20,7 @@
         */
         public function boot()
         {
-            laravel5($this->app);
+            laravel5($this->app, \config('app.name', 'Laravel'));
         }
 
         /**
